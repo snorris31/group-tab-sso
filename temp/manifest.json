@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.15/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "id": "28bef4d0-c4b2-11ee-927a-91654a912461",
+  "version": "0.0.1",
+  "packageName": "sampletabapp",
+  "developer": {
+    "name": "Microsoft",
+    "websiteUrl": "https://0666-220-158-49-78.ngrok-free.app",
+    "privacyUrl": "https://0666-220-158-49-78.ngrok-free.app/privacy.html",
+    "termsOfUseUrl": "https://0666-220-158-49-78.ngrok-free.app/tou.html"
+  },
+  "name": {
+    "short": "sample-proj",
+    "full": "sample-proj"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://0666-220-158-49-78.ngrok-free.app/sampleTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "0666-220-158-49-78.ngrok-free.app"
+  ],
+  "showLoadingIndicator": true,
+  "webApplicationInfo": {
+    "id": "5442e981-c629-46ae-90ba-e405fd01c251",
+    "resource": "api://0666-220-158-49-78.ngrok-free.app/5442e981-c629-46ae-90ba-e405fd01c251"
+  }
+}

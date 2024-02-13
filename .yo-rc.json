@@ -1,0 +1,9 @@
+{
+  "generator-teams": {
+    "promptValues": {
+      "developer": "Microsoft"
+    },
+    "libraryName": "sampleTabApp",
+    "generator-version": "4.1.0"
+  }
+}
