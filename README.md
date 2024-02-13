@@ -59,7 +59,7 @@ To create the Microsoft Teams Apps manifest, run the `manifest` Gulp task. This 
 gulp manifest
 ```
 
-## Uploading the manifest
+## Uploading the manifest to further test in Teams
 
 * Open Teams and on the left pane go to Apps
 * On the lower left, you should see a link to 'Manage your apps'. Click this.
@@ -67,6 +67,8 @@ gulp manifest
 * It will prompt you to add this to a Team; select the team you would like to test this application on, and add it as a tab to a channel.
 * You should then see the configuration page for this tab. Click 'Save', then go to the newly added tab to see the application. 
 
+## Update APPLICATION_ID
+* Make sure to update the APPLICATION_ID in the .env file to a unique ID.
 
 # Other options enabled on this project
 

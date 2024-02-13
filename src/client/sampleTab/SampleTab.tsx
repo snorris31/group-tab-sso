@@ -73,8 +73,12 @@ export const SampleTab = () => {
                         <div>
                             Here is some more information we can retrieve from the Teams context
                         </div>
+                        <div>
                             <Text content={`This channel ID ${channelId}!`} />
+                        </div>
+                        <div>
                             <Text content={`This group ID ${groupId}!`} />
+                        </div>
                     </div>
                 </Flex.Item>
                 <Flex.Item styles={{
